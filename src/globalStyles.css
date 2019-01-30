@@ -1,0 +1,199 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html{
+    box-sizing:border-box;
+}
+body{
+    font-family:'Open Sans';
+    box-sizing:border-box;
+
+}
+
+:root {
+    --primaryColor:#2C2D44;
+    --secondaryColor: #f4f6fa;
+    --darkPurple: #232634;
+    --aliceblue:aliceblue;
+    --white : #fff;
+    --black: #000;
+    --box-shadow:  0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    --box-shadow1: 1px 1px 1px 0 rgba(0,0,0,0.12);
+}
+button{
+    outline:none;
+    border:none;
+    border: none;
+    cursor:pointer;
+    background:none;
+    border-styles:none;
+    outline:none;
+ }
+button::-moz-focus-inner {
+    border: 0;
+ }
+ a,a:active,a:focus {
+    text-decoration: none;
+    border:none;
+    outline:none;
+    color:inherit;
+    } 
+
+img{
+    margin-right:1rem;
+}
+
+input[type="date"]:before {
+    content: 'attr(placeholder) !important';
+  }
+
+.input-field.col label,
+input[type=email]:focus:not([readonly])+label,
+input[type=password]:focus:not([readonly])+label
+{
+ color: var(--darkPurple);
+}
+
+input[type=email]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]){
+    border-bottom: 1px solid var(--darkPurple);
+    box-shadow:0px 1px 0px #ccc;
+}
+
+.btn,
+.btn:hover,
+.btn:focus
+{
+    background: var(--primaryColor)
+}
+
+.mapbox-gl-draw_ctrl-draw-btn mapbox-gl-draw_uncombine{
+    display: none!important;
+}
